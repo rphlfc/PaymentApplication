@@ -9,8 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color("background").ignoresSafeArea()
+            
+            VStack {
+                HomeNavigationView()
+                    .padding(.horizontal)
+                
+                CardView()
+                
+                BalanceView()
+                
+                PayView()
+                    
+                Spacer()
+                
+                MenuView()
+            }
+        }
     }
 }
 
@@ -19,3 +35,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

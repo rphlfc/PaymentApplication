@@ -11,6 +11,12 @@
 		640F9390252802BA00F2DA3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F938F252802BA00F2DA3A /* ContentView.swift */; };
 		640F9392252802BD00F2DA3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640F9391252802BD00F2DA3A /* Assets.xcassets */; };
 		640F9395252802BD00F2DA3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640F9394252802BD00F2DA3A /* Preview Assets.xcassets */; };
+		640F939F2528064600F2DA3A /* HomeNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F939E2528064600F2DA3A /* HomeNavigationView.swift */; };
+		640F93A325280DC300F2DA3A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F93A225280DC300F2DA3A /* CardView.swift */; };
+		640F93A62528153300F2DA3A /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F93A52528153300F2DA3A /* BalanceView.swift */; };
+		640F93A92528154300F2DA3A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F93A82528154300F2DA3A /* MenuView.swift */; };
+		640F93AD252816F500F2DA3A /* PayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F93AC252816F500F2DA3A /* PayView.swift */; };
+		640F93B0252817C300F2DA3A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 640F93AF252817C300F2DA3A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		640F9391252802BD00F2DA3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		640F9394252802BD00F2DA3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		640F9396252802BD00F2DA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640F939E2528064600F2DA3A /* HomeNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationView.swift; sourceTree = "<group>"; };
+		640F93A225280DC300F2DA3A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = PaymentApplication/CardView.swift; sourceTree = SOURCE_ROOT; };
+		640F93A52528153300F2DA3A /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BalanceView.swift; path = PaymentApplication/BalanceView.swift; sourceTree = SOURCE_ROOT; };
+		640F93A82528154300F2DA3A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		640F93AC252816F500F2DA3A /* PayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PayView.swift; path = PaymentApplication/PayView.swift; sourceTree = SOURCE_ROOT; };
+		640F93AF252817C300F2DA3A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,7 @@
 		640F9381252802BA00F2DA3A = {
 			isa = PBXGroup;
 			children = (
+				640F93AF252817C300F2DA3A /* README.md */,
 				640F938C252802BA00F2DA3A /* PaymentApplication */,
 				640F938B252802BA00F2DA3A /* Products */,
 			);
@@ -52,6 +65,7 @@
 		640F938C252802BA00F2DA3A /* PaymentApplication */ = {
 			isa = PBXGroup;
 			children = (
+				640F939D2528063000F2DA3A /* Views */,
 				640F938D252802BA00F2DA3A /* PaymentApplicationApp.swift */,
 				640F938F252802BA00F2DA3A /* ContentView.swift */,
 				640F9391252802BD00F2DA3A /* Assets.xcassets */,
@@ -67,6 +81,18 @@
 				640F9394252802BD00F2DA3A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		640F939D2528063000F2DA3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				640F93AC252816F500F2DA3A /* PayView.swift */,
+				640F93A82528154300F2DA3A /* MenuView.swift */,
+				640F93A52528153300F2DA3A /* BalanceView.swift */,
+				640F93A225280DC300F2DA3A /* CardView.swift */,
+				640F939E2528064600F2DA3A /* HomeNavigationView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				640F93B0252817C300F2DA3A /* README.md in Resources */,
 				640F9395252802BD00F2DA3A /* Preview Assets.xcassets in Resources */,
 				640F9392252802BD00F2DA3A /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				640F93AD252816F500F2DA3A /* PayView.swift in Sources */,
+				640F939F2528064600F2DA3A /* HomeNavigationView.swift in Sources */,
+				640F93A92528154300F2DA3A /* MenuView.swift in Sources */,
+				640F93A62528153300F2DA3A /* BalanceView.swift in Sources */,
 				640F9390252802BA00F2DA3A /* ContentView.swift in Sources */,
+				640F93A325280DC300F2DA3A /* CardView.swift in Sources */,
 				640F938E252802BA00F2DA3A /* PaymentApplicationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
